@@ -1,4 +1,5 @@
 # Movie-Recommendation-System
+
 Movie Recommendation System: Personalized Suggestions using Hybrid Approaches
 This repository contains the code and analysis for a personalized movie recommendation system, developed as part of the Foundations of Data Science (FODS) project. The system explores and compares multiple recommendation techniques, from traditional collaborative filtering to advanced hybrid and graph-based models, to find the best approach for accuracy, ranking, and diversity.
 
