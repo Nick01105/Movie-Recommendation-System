@@ -120,7 +120,7 @@ Note: The scikit-surprise library requires a specific numpy version. The noteboo
 
 2. Execution
 
-The primary analysis is contained in the FODS_Assignment (2).ipynb notebook. You can run the cells sequentially to perform:
+The primary analysis is contained in the FODS_Assignment_(2).ipynb notebook. You can run the cells sequentially to perform:
 
 Data download and Exploratory Data Analysis (EDA).
 
