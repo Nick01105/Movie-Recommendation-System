@@ -72,15 +72,15 @@ Models were evaluated for both predictive accuracy (RMSE, MAE) and ranking quali
 Model Performance Summary
 Below is a summary of the final performance metrics. The KGCN model, implemented as a stretch goal, is included for comparison.
 
-       Model	                  RMSE	 MAE   NDCG@10   MRR
-       KGCN (Stretch Goal)	     0.849	0.643	0.765	0.858
-       SVD                       0.874	0.672	0.851	0.875
-       KNNWithMeans (User-based) 0.924	0.708	0.823	0.841
-       KNNWithMeans (Item-based) 0.929	0.710	0.815	0.836
-       Co-clustering             0.944	0.741	0.798	0.812
-       KNNBasic (Item-based)     1.003	0.773	0.754	0.779
-       KNNBasic (User-based)     1.021	0.787	0.731	0.755
-
+       Model	                  RMSE	 MAE   NDCG@10   MRR     ILD
+       KGCN (Stretch Goal)	     0.849	0.643	0.765	0.858   0.751
+       SVD                       0.874	0.672	0.851	0.875   0.696
+       KNNWithMeans (User-based) 0.924	0.708	0.823	0.841   0.729
+       KNNWithMeans (Item-based) 0.929	0.710	0.815	0.836   0.722
+       Co-clustering             0.944	0.741	0.798	0.812   0.739
+       KNNBasic (Item-based)     1.003	0.773	0.754	0.779   0.722
+       KNNBasic (User-based)     1.021	0.787	0.731	0.755   0.719
+       LightGBM                  1.039  0.827   0.676   0.742   0.723
 
 (Metrics for all models except KGCN are from 5-fold cross-validation ).
 
